@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
-
-namespace FileSystem
+namespace FileCreate
 {
     class Program
     {
@@ -35,6 +34,7 @@ namespace FileSystem
                 File.Create(fullfilePath);
                 Console.WriteLine($"File {filename}.txt has been created");
             }
+
         }
     }
 }
